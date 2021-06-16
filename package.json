@@ -1,0 +1,32 @@
+{
+  "name": "sleact_eunsu",
+  "version": "1.0.0",
+  "description": "sleact study sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunsueunsu/sleact-eunsu.git"
+  },
+  "author": "eunsu lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunsueunsu/sleact-eunsu/issues"
+  },
+  "homepage": "https://github.com/eunsueunsu/sleact-eunsu#readme",
+  "dependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
+  }
+}
