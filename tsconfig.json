@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,  // import * as React from 'react';  -> import React from 'react';   노드 모듈은 전자로 가져옴
+    "sourceMap": true, // 에러난 위치 찾아가기 편함
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react",   // react 외에 다른 프로그래밍에도 쓰이기 때문에 지정함
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es5",  // es2020로 작성해도  es5로 변환하겠다.
+    "strict": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@hooks/*": ["hooks/*"], // import할때 경로를 편하게 지정
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@typings/*": ["typings/*"]
+    }
+  }
+}
